@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Home</title>
+      <link
+         href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+         rel="stylesheet"
+         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+         crossorigin="anonymous"
+      />
+      <link rel="stylesheet" href="style.css" />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap"
+         rel="stylesheet"
+      />
+   </head>
+   <body>
+      <div class="container">
+         <header>
+            <div>
+               <img src="image/DRAGON_.png" class="img-fluid d-block w-100" alt="img_dragon" />
+            </div>
+         </header>
+         <div class="row p-2 title">
+            <h1>DRAGONIS</h1>
+         </div>
+
+         <div class="row mt-3">
+            <div class="col-1"></div>
+            <div class="col-10 description">
+               <h5>
+                  Immerse yourself in Dragonis, a fantasy world where every corner hides powerful
+                  enemies. From majestic dragons to mythical creatures, prepare to face dark forces in
+                  epic battles. Explore uncharted lands, choose your destiny, and master unique skills to
+                  become a legendary hero. The kingdom awaits, and each battle shapes the future of the
+                  world.
+               </h5>
+            </div>
+         </div>
+         <section class="container mt-3">
+            <h2>Classes :</h2>
+            <div class="row mt-3 g-2 justify-content-center">
+               <div class="col-md-2 col-sm-12 text-center p-3 mx-auto class-box">
+                  <img
+                     src="image/shield_.jpg"
+                     class="img-fluid"
+                     alt="img_shield"
+                     style="max-height: 120px; width: auto"
+                  />
+                  <h3>Tank</h3>
+                  <p>
+                     A sturdy warrior who absorbs damage to protect allies, drawing the attention of
+                     enemies towards themselves.
+                  </p>
+                  <a href="#" data-bs-toggle="modal" data-bs-target="#TankModal" class="text-warning"
+                     >Learn More...</a
+                  >
+                  <div
+                     class="modal"
+                     tabindex="-1"
+                     id="TankModal"
+                     aria-labelledby="tankModalLabel"
+                     aria-hidden="true"
+                  >
+                     <div class="modal-dialog">
+                        <div class="modal-content">
+                           <div class="modal-header">
+                              <h5 class="modal-title" id="tankModalLabel">Tank Statistics</h5>
+                              <button
+                                 type="button"
+                                 class="btn-close"
+                                 data-bs-dismiss="modal"
+                                 aria-label="Close"
+                              ></button>
+                           </div>
+                           <div class="modal-body">
+                              <ul>
+                                 <li><strong>Damage:</strong> High</li>
+                                 <li><strong>Mobility/Speed:</strong> Average</li>
+                                 <li><strong>Healing:</strong> None</li>
+                                 <li><strong>Mana:</strong> No</li>
+                                 <li><strong>Vitality:</strong> High</li>
+                              </ul>
+                           </div>
+                           <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                                 Close
+                              </button>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-2 col-sm-12 text-center p-3 mx-auto class-box">
+                  <img
+                     src="image/healer.jpg"
+                     class="img-fluid"
+                     alt="img_healer"
+                     style="max-height: 120px; width: auto"
+                  />
+                  <h3>healer</h3>
+                  <p>
+                     An essential support class, restoring health to companions and keeping them alive in
+                     the fiercest battles. Healers can also provide valuable buffs to enhance allies'
+                     abilities during combat
+                  </p>
+                  <a href="#" data-bs-toggle="modal" data-bs-target="#HealerModal" class="text-warning"
+                     >Learn More...</a
+                  >
+                  <div
+                     class="modal"
+                     tabindex="-1"
+                     id="HealerModal"
+                     aria-labelledby="healerModalLabel"
+                     aria-hidden="true"
+                  >
+                     <div class="modal-dialog">
+                        <div class="modal-content">
+                           <div class="modal-header">
+                              <h5 class="modal-title" id="healerModalLabel">Healer Statistics</h5>
+                              <button
+                                 type="button"
+                                 class="btn-close"
+                                 data-bs-dismiss="modal"
+                                 aria-label="Close"
+                              ></button>
+                           </div>
+                           <div class="modal-body">
+                              <ul>
+                                 <li><strong>Damage:</strong> Very Low</li>
+                                 <li><strong>Mobility/Speed:</strong> Rather High</li>
+                                 <li><strong>Healing:</strong> High</li>
+                                 <li><strong>Mana:</strong> Yes: Average</li>
+                                 <li><strong>Vitality:</strong> Average</li>
+                              </ul>
+                           </div>
+                           <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                                 Close
+                              </button>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-2 col-sm-12 text-center p-3 mx-auto class-box">
+                  <img
+                     src="image/archer.jpg"
+                     class="img-fluid"
+                     alt="img-archer"
+                     style="max-height: 120px; width: auto"
+                  />
+                  <h3>Archer</h3>
+                  <p>
+                     A master of ranged attacks, capable of striking enemies with precision while staying
+                     out of harm's way.
+                  </p>
+                  <a href="#" data-bs-toggle="modal" data-bs-target="#ArcherModal" class="text-warning"
+                     >Learn More...</a
+                  >
+                  <div
+                     class="modal"
+                     tabindex="-1"
+                     id="ArcherModal"
+                     aria-labelledby="archerModalLabel"
+                     aria-hidden="true"
+                  >
+                     <div class="modal-dialog">
+                        <div class="modal-content">
+                           <div class="modal-header">
+                              <h5 class="modal-title" id="archerModalLabel">Archer Statistics</h5>
+                              <button
+                                 type="button"
+                                 class="btn-close"
+                                 data-bs-dismiss="modal"
+                                 aria-label="Close"
+                              ></button>
+                           </div>
+                           <div class="modal-body">
+                              <ul>
+                                 <li><strong>Damage:</strong> High</li>
+                                 <li><strong>Mobility/Speed:</strong> High</li>
+                                 <li><strong>Healing:</strong> None</li>
+                                 <li><strong>Mana:</strong> Yes: Low</li>
+                                 <li><strong>Vitality:</strong> Low</li>
+                              </ul>
+                           </div>
+                           <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                                 Close
+                              </button>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-2 col-sm-12 text-center p-3 mx-auto class-box">
+                  <img
+                     src="image/DPS.jpg"
+                     class="img-fluid"
+                     alt="img-DPS"
+                     style="max-height: 120px; width: auto"
+                  />
+                  <h3>DPS</h3>
+                  <p>
+                     A specialist in quick and powerful damage, focused on eliminating enemies as
+                     efficiently as possible.
+                  </p>
+                  <a href="#" data-bs-toggle="modal" data-bs-target="#DPSModal" class="text-warning"
+                     >Learn More...</a
+                  >
+                  <div
+                     class="modal"
+                     tabindex="-1"
+                     id="DPSModal"
+                     aria-labelledby="dpsModalLabel"
+                     aria-hidden="true"
+                  >
+                     <div class="modal-dialog">
+                        <div class="modal-content">
+                           <div class="modal-header">
+                              <h5 class="modal-title" id="dpsModalLabel">DPS Statistics</h5>
+                              <button
+                                 type="button"
+                                 class="btn-close"
+                                 data-bs-dismiss="modal"
+                                 aria-label="Close"
+                              ></button>
+                           </div>
+                           <div class="modal-body">
+                              <ul>
+                                 <li><strong>Damage:</strong> Very High</li>
+                                 <li><strong>Mobility/Speed:</strong> Average</li>
+                                 <li><strong>Healing:</strong> None</li>
+                                 <li><strong>Mana:</strong> No</li>
+                                 <li><strong>Vitality:</strong> Average</li>
+                              </ul>
+                           </div>
+                           <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                                 Close
+                              </button>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-2 col-sm-12 text-center p-3 mx-auto class-box">
+                  <img
+                     src="image/mage.jpg"
+                     class="img-fluid"
+                     alt="img-mage"
+                     style="max-height: 120px; width: auto"
+                  />
+                  <h3>Mage</h3>
+                  <p>
+                     A master of arcane arts, wielding powerful spells to deal devastating damage from a
+                     distance while relying on mana for casting.
+                  </p>
+                  <a href="#" data-bs-toggle="modal" data-bs-target="#MageModal" class="text-warning"
+                     >Learn More...</a
+                  >
+                  <div
+                     class="modal"
+                     tabindex="-1"
+                     id="MageModal"
+                     aria-labelledby="mageModalLabel"
+                     aria-hidden="true"
+                  >
+                     <div class="modal-dialog">
+                        <div class="modal-content">
+                           <div class="modal-header">
+                              <h5 class="modal-title" id="mageModalLabel">Mage Statistics</h5>
+                              <button
+                                 type="button"
+                                 class="btn-close"
+                                 data-bs-dismiss="modal"
+                                 aria-label="Close"
+                              ></button>
+                           </div>
+                           <div class="modal-body">
+                              <ul>
+                                 <li><strong>Damage:</strong> High</li>
+                                 <li><strong>Mobility/Speed:</strong> Low</li>
+                                 <li><strong>Healing:</strong> Low</li>
+                                 <li><strong>Mana:</strong> Yes: High</li>
+                                 <li><strong>Vitality:</strong> Low</li>
+                              </ul>
+                           </div>
+                           <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                                 Close
+                              </button>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="container mt-4 MAP">
+            <h2>Map Preview:</h2>
+
+            <div class="carousel slide" id="carouselImgMAP" data-bs-ride="true">
+               <div class="carousel-indicators">
+                  <button
+                     type="button"
+                     data-bs-target="#carouselImgMAP"
+                     data-bs-slide-to="0"
+                     class="active"
+                     aria-current="true"
+                     aria-label="Slide 1"
+                  ></button>
+                  <button
+                     type="button"
+                     data-bs-target="#carouselImgMAP"
+                     data-bs-slide-to="1"
+                     aria-label="Slide 2"
+                  ></button>
+                  <button
+                     type="button"
+                     data-bs-target="#carouselImgMAP"
+                     data-bs-slide-to="2"
+                     aria-label="Slide 3"
+                  ></button>
+                  <button
+                     type="button"
+                     data-bs-target="#carouselImgMAP"
+                     data-bs-slide-to="3"
+                     aria-label="Slide 4"
+                  ></button>
+                  <button
+                     type="button"
+                     data-bs-target="#carouselImgMAP"
+                     data-bs-slide-to="4"
+                     aria-label="Slide 5"
+                  ></button>
+                  <button
+                     type="button"
+                     data-bs-target="#carouselImgMAP"
+                     data-bs-slide-to="5"
+                     aria-label="Slide 6"
+                  ></button>
+                  <button
+                     type="button"
+                     data-bs-target="#carouselImgMAP"
+                     data-bs-slide-to="6"
+                     aria-label="Slide 7"
+                  ></button>
+               </div>
+               <div class="carousel-inner">
+                  <div class="carousel-item active">
+                     <img src="image/plain.jpg" class="d-block w-100" alt="img_plain" />
+                  </div>
+                  <div class="carousel-item">
+                     <img src="image/volcano (1).jpg" class="d-block w-100" alt="img-volcano" />
+                  </div>
+                  <div class="carousel-item">
+                     <img src="image/snow.jpg" class="d-block w-100" alt="img-snowLand" />
+                  </div>
+                  <div class="carousel-item">
+                     <img src="image/desert.jpg" class="d-block w-100" alt="img-desertLand" />
+                  </div>
+                  <div class="carousel-item">
+                     <img src="image/water.jpg" class="d-block w-100" alt="img-WaterLand" />
+                  </div>
+                  <div class="carousel-item">
+                     <img src="image/forest.jpg" class="d-block w-100" alt="img-forestLand" />
+                  </div>
+                  <div class="carousel-item">
+                     <img src="image/sky_Island.jpg" class="d-block w-100" alt="igm-skyIsland" />
+                  </div>
+               </div>
+               <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselImgMAP"
+                  data-bs-slide="prev"
+               >
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+               </button>
+               <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselImgMAP"
+                  data-bs-slide="next"
+               >
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+               </button>
+            </div>
+         </section>
+         <section class="container justify-content-center mt-3 form">
+            <h2>About Us</h2>
+            <div class="row g-3">
+               <div class="col-md-5 col-sm-12 mx-auto p-3 about-box border">
+                  <h3>Who we are</h3>
+                  <p>
+                     We are a passionate team dedicated to creating immersive gaming experiences. Our
+                     mission is to transport players to fantastical worlds filled with adventure and
+                     excitement. Join us on this journey as we explore the realms of creativity and
+                     imagination.
+                  </p>
+               </div>
+               <div class="col-md-5 col-sm-12 mx-auto p-3 about-box border">
+                  <h3>Contact Us</h3>
+                  <form action="#" class="row">
+                     <div class="form-floating col-sm-12 col-md-6 mb-3">
+                        <input
+                           type="text"
+                           class="form-control"
+                           id="floatingF_name"
+                           placeholder="First_name"
+                           required
+                        />
+                        <label id="fLname" for="floatingF_name">First Name</label>
+                     </div>
+                     <div class="form-floating col-sm-12 col-md-6 mb-3">
+                        <input
+                           type="text"
+                           class="form-control"
+                           id="floatingL_name"
+                           placeholder="Last_name"
+                           required
+                        />
+                        <label id="fFname" for="floatingL_name">Last Name</label>
+                     </div>
+
+                     <div class="form-floating mb-3">
+                        <input
+                           type="email"
+                           class="form-control"
+                           id="floatingEmail"
+                           placeholder="First_name.Last_name@example.com"
+                           required
+                        />
+                        <label id="fEmail" for="floatingEmail">Email address</label>
+                     </div>
+                     <div class="mb-3">
+                        <label for="comment" class="form-label">If you have any comments:</label>
+                        <textarea name="" id="comment" class="form-control" rows="3"></textarea>
+                     </div>
+                     <button type="submit" class="btn btn-danger">Submit</button>
+                  </form>
+               </div>
+            </div>
+         </section>
+      </div>
+      <footer class="text-center mt-1 p-4">
+         <div class="container"><p>© 2024 Théo BRACQUEMART. All rights reserved.</p></div>
+      </footer>
+      <script
+         src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+         crossorigin="anonymous"
+      ></script>
+   </body>
+</html>
